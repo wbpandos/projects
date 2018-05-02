@@ -1,0 +1,6 @@
+[console_scripts]
+initialize_pyramid_blogr_db = pyramid_blogr.scripts.initializedb:main
+
+[paste.app_factory]
+main = pyramid_blogr:main
+
